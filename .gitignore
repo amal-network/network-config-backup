@@ -1,0 +1,11 @@
+
+---
+
+### Optional File 3: `.gitignore` (Prevents uploading passwords)
+
+```text
+# Ignore files with real passwords
+*.cfg
+*.log
+*password*
+*.key
