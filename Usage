@@ -1,0 +1,7 @@
+# Run manually
+sudo /usr/local/bin/backup-cisco.sh
+
+# Add to crontab (daily backup at 2 AM)
+sudo crontab -e
+# Add line:
+0 2 * * * /usr/local/bin/backup-cisco.sh
